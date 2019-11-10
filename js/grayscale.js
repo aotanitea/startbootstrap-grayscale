@@ -30,22 +30,12 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $('#myImage').attr({"src": "img/pic_bulbon.gif"});
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $('#myImage').attr({"src": "img/pic_bulboff.gif"});
     }
   };
-
-
-//  function  {
-//      var pic;
-//      if ($("#mainNav").offset().top>100){
-//        pic = "pic_bulbon.gif"
-//      } else {
-//        pic = "pic_bulboff.gif"
-//      }
-//      document.getElemnetById('myImage').src = pic;
-//
-//  }
 
   // Collapse now if page is not at top
   navbarCollapse();
