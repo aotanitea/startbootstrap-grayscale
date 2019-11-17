@@ -30,13 +30,20 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+         $('#myImage').attr({"src": "img/pic_bulbon.gif"});
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+        $('#myImage').attr({"src": "img/pic_bulboff.gif"});
     }
   };
+
+
+
   // Collapse now if page is not at top
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+
+
 
 })(jQuery); // End of use strict
