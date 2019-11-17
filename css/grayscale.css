@@ -83,7 +83,7 @@
   #mainNav.navbar-shrink .nav-link.active {
     color: #64a19d;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #20662A;
   }
 }
 
@@ -165,7 +165,7 @@
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(21, 53, 29, 0.95) 50%, rgba(21, 53, 29, 0.95) 100%);
+  background: linear-gradient(to bottom, #161616 0%, rgba(24, 45, 25, 0.95) 50%, rgba(24, 45, 25, 0.95) 100%);
 }
 
 .about-section p {
@@ -182,8 +182,8 @@
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    padding: 0 2 2 0rem;
+    border-bottom: 0.1rem solid #20662A;
   }
 }
 
@@ -229,7 +229,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #20662A;
 }
 
 .contact-section .card h4 {
